@@ -4,7 +4,7 @@ import {
   AppConfig,
   EmitConfigUpdateAvailable,
   OnRequestConfigUpdate,
-} from "../apps-editor-sdk/lib/types";
+} from "@screencloud/apps-editor-sdk/lib/types";
 
 export interface ScreenCloudPlayer {
   config?: AppConfig;
