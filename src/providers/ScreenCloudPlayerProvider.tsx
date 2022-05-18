@@ -47,7 +47,7 @@ export class ScreenCloudPlayerProvider extends Component<Props, State> {
       testData = this.props.testData;
     }
 
-    const sc = await connectScreenCloud(testData || {});
+    const sc = await connectScreenCloud(testData);
 
     const config = sc.getConfig();
 
